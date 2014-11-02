@@ -102,7 +102,7 @@ Easy explanation in code snippet:
 if TweetType is 'Timeline':
     replychance = '1%'
 
-if 'TweetType' is 'RT': #Example - @Papa_soibot: RT @soibot สอยให้หมดตัวเลยสิครัฟ
+if TweetType is 'RT': #Example - @Papa_soibot: RT @soibot สอยให้หมดตัวเลยสิครัฟ
     replychance = '10%'
     
 if TweetType is 'Mention/Reply':
