@@ -100,12 +100,10 @@ Easy explanation in code snippet:
 
 ```python
 if TweetType is 'Timeline':
-    if 'Tweet' is 'RT': #Example - @Papa_soibot: RT @soibot สอยให้หมดตัวเลยสิครัฟ
-        replychance = '3%'
-    else:
-        replychance = '15%'
+    replychance = '1%'
 
-if TweetType is 'Reply':
+if TweetType is 'Mention/Reply':
+    
     if 'you are following bot':
         if 'bot is following you':
             replychance = '100%' 
@@ -113,6 +111,9 @@ if TweetType is 'Reply':
             replychance = '75%'
     else 'you are not following bot':
         replychance = '25%'
+    
+    if 'Tweet' is 'RT': #Example - @Papa_soibot: RT @soibot สอยให้หมดตัวเลยสิครัฟ
+        replychance = '10%'
 ```
 So if the bot does not reply back to you, please kindly understand that it's solely to **limit its [API usage][4]**.
 
