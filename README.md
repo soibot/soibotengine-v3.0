@@ -125,9 +125,11 @@ If there is any error, it will be logged to [@soibotstatus][3].
 ##FAQs
 
 **Q: Why Soibot named สอยบอท**
+
 A: สอย means buy. บอท means bot. The bot that tells you to keep spending.
 
 **Q: How about cognitive feature?**
+
 A: No, and will never happen. It is too hard to control. (Example case: [Simsimi][5]
 
 Every new script will be proof-read by the owner under his discretion.
@@ -135,12 +137,15 @@ Every new script will be proof-read by the owner under his discretion.
 This is to ensure that the bot will have the its personality. The personality that makes soibot unique.
 
 **Q: Will you open-source the code?**
+
 A: No. 
 
 **Q: I want to make a bot and will make it talk with soibot. Will that be ok?**
+
 A: Well, I want to reserve API for fellow Twitter user. I may block the bot if I find its content too repetitive.
 
 **Q: What should I do?**
+
 A: Have a great time. Please do not take it too seriously. 
 
 
