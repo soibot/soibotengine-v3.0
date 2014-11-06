@@ -9,8 +9,8 @@ soibotengine-v3.0
 
 Very pointless. I still don't get why it became so popular... Under 4 years. He now has **4,000** followers.
 
-**v1.0** uses Twittbot service. Then moved to similar free service for version **v2.0**.
-Bot service went dead because Japanese bot host shut the website. That is the reason why bot stopped tweeting since then.
+**v1.0** uses free Twittbot service by some Japanese dude. Upgrade to Pro version is neccessary if I want extra features. So I moved to similar free service for version **v2.0** which runs on Google AppEngine.
+Bot service went dead because Japanese bot host ran out of API for some reason and shut the site. That was the reason why the bot stopped tweeting since then. I was lucky enough to backup all the script before hand.
 
 I know he was dead for a couple of years. Why not resurrects him?
 
@@ -20,7 +20,7 @@ I know he was dead for a couple of years. Why not resurrects him?
 
 **soibotengine-v3.0** is a Twitter bot engine based on Regex snippet from [soibotengine v2.0][2] by unk... \*cough\* \*cough\*
 
-**Yes.** version 3.0 is coded by the same dude. Spent full week rewriting the v2.0 code from scratch. Most of the scripts are based on v2.0. (Regular Reply and Timeline Reply)
+**Yes.** version 3.0 is coded by the same dude. Spent full week rewriting the v2.0 code from scratch. Most of the scripts are based on v2.0. (Regular Reply and Timeline Reply) Same old dialog, but with new features. It's awesome! (Owner, 2014)
 
 By the way, this github is just a documentation. So please don't expect any source code for the time being.
 
@@ -71,7 +71,7 @@ Actually, I want to name this version **1.0** while two versions before are **0.
 
 Same as v2.0. Mention tweet or reply to [@soibot][1]. Or simply tweet normally if the bot is following you. ([@soibot][1] is in your follower list)
 
-Notable Examples:
+Notable Examples for v3.0:
 
 | Command Type       | Tweet           | Reply  |
 | ------------- |-------------| -----|
