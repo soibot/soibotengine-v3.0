@@ -99,13 +99,15 @@ He **may** or **may not** reply back to you. This is one of new features in v3.0
 Easy explanation in code snippet:
 
 ```python
-if TweetType is 'Timeline':
-    replychance = '1%'
+if Tweet.type is 'Timeline':
+    #replychance = '1%'
+    if Tweet.phrase match phase in phraselist:
+        replychance = phase.chance #Range - 1% to 100% (Could you find 100% phrase?)
 
-if TweetType is 'RT': #Example - @Papa_soibot: RT @soibot สอยให้หมดตัวเลยสิครัฟ
+if Tweet.type is 'RT': #Example - @Papa_soibot: RT @soibot สอยให้หมดตัวเลยสิครัฟ
     replychance = '10%'
     
-if TweetType is 'Mention/Reply':
+if Tweet.type is 'Mention/Reply':
     if 'you are following bot':
         if 'bot is following you':
             replychance = '100%' 
