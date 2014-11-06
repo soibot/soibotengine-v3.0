@@ -154,6 +154,7 @@ If you want serious answer. Talk to its owner. Please do not ask about coding it
 
 If you think you have found a bug/have a idea/suggestion, please tweet directly to the owner or DM to the bot itself. 
 
+Or if you have github account. You can report an issue [here][7]
 
 Thank you for reading and supporting.
 
@@ -175,3 +176,5 @@ Cute animal mascot is preferred.
 [5]: http://www.thairath.co.th/content/235632
 
 [6]:https://support.twitter.com/articles/18311-the-twitter-rules#
+
+[7]:https://github.com/soibot/soibotengine-v3.0/issues
